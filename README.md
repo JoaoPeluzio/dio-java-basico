@@ -3,4 +3,4 @@ bootcamp backend java santander 2024
 
 ## Documentação Java basico
 
-[here](https://glysns.gitbook.io/java-basico).
+[Guia de Java básico](https://glysns.gitbook.io/java-basico).
