@@ -1,5 +1,5 @@
-// toda classe dever ser em primeira letra maiuscula, pois e uma convenção do java
-// nomes compostos a primeira e segunda palavra devem ser maiusculas.
+// toda classe dever ser em primeira letra maiúscula, pois e uma convenção do java
+// nomes compostos a primeira e segunda palavra devem ser maiúsculas.
 // toda classe começa com o prefixo public class;
 // o nome da classe tem que ser o mesmo nome do arquivo;
 
@@ -7,8 +7,9 @@
 // ele deve seguir um padrão : public status void (que não irá retornar nada)
 // para imprimir uma informação: system.out
 
-/**
- * Variáveis:
+/**##############################################################
+ * 
+ * ###Variáveis:###
  * 
  * toda variável deve começar com a letra minúscula;
  * se a variável possuir nome composto, seguimos o padrão camelCase;
@@ -23,6 +24,15 @@
  *   -Não pode ter espaços;
  *   -Não pode usar palavra chave;
  *   -Nome deve ser único dentro de um escopo.
+ * ###############################################################
+ * 
+ * ### Declaração de variáveis e métodos em Java: ###
+ * 
+ *  toda variável terá o: Tipo NomeBemDefinido = Atribuição;
+ * Exemplo: 
+ * int idade = 32;
+ * double altura = 1.60;
+ * 
  * 
  */
 
@@ -32,9 +42,18 @@
  
      public static void main (String [] args) {
         
-         System.out.print ( "Olá, João!" );
-     
+       String primeiroNome = "Joao";
+       String segundoNome = "Peluzio";
+
+       String nomeCompleto = nomeCompleto (primeiroNome, segundoNome);
+       System.out.println(nomeCompleto);
+            
+     }
+
+     public static String nomeCompleto (String primeiroNome, String segundoNome){
+        return "Resultado do método: " + primeiroNome.concat(" ").concat(segundoNome);
      }
  
  }
  
+
