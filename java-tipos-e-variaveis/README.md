@@ -1,18 +1,28 @@
-## Getting Started
+# Tipos e Variáveis
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+ Tipos pimitivos: são tipos primitivos e valores brutos e armazenados na pilha de memória. Os valores seriam suas capacidades.
 
-## Folder Structure
+ ### tipos: int, byte, short long, float, double, boolean e char.
 
-The workspace contains two folders by default, where:
+#### Por convenção é mais utilizado o INT
+#### Por convenção é mais utilizado o DOUBLE
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+# Composição da variável:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Terá o `tipo nome = valor;`
+Exemplo: 
+- `int idade = 25;`
+- `byte idade = 123;`
+- `short ano = 2021;`
+- `int cep = 21070333;` //se atentar para número que começa em 0.
+- `long cpf = 98765432109L;`//se atentar se começar com zero; precisaro L no final;
+- `flot pi = 3.14f;` // tipo float deve encerrar com f;
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+# Variáveis x constantes:
 
-## Dependency Management
+Constantes são valores armazenados na memória que depois de declarados não podem ser redefinidos.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Em java essa variável constante deve conter a palavra `final` no início e conter a descrição de seu nome me CAIXA ALTA. 
+
+- Exemplo: `final double VALOR_DE_PI = 3.14;`
+
